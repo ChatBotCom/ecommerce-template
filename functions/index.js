@@ -212,7 +212,7 @@ router
 
 app.use(router);
 
-exports.restaurantBot = functions.https.onRequest((req, res) => {
+exports.ecommerceBot = functions.https.onRequest((req, res) => {
     if (!req.path) {
         req.url = `/${req.url}`;
     }

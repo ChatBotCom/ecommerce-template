@@ -1,11 +1,11 @@
 {
-  "name": "webhooks-resturant-bot-template",
-  "description": "Webhooks for restaurant bot template",
+  "name": "ecommerce-bot",
+  "description": "Ecommerce Bot can help you deliver the top-notch online shop experience in a chat window.",
   "version": "0.0.1",
   "author": "ChatBot.com",
   "scripts": {
-    "start": "firebase serve --only functions:restaurantBot",
-    "deploy": "firebase deploy --only functions:restaurantBot"
+    "start": "firebase serve --only functions:ecommerceBot",
+    "deploy": "firebase deploy --only functions:ecommerceBot"
   },
   "dependencies": {
     "express": "^4.16.4",
