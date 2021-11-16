@@ -140,11 +140,11 @@ router
             responses: [
                 {
                     type: 'text',
-                    elements: ['✅ Product has been added successfully. \n\n🛒 Your cart:']
+                    message: ['✅ Product has been added successfully. \n\n🛒 Your cart:']
                 },
                 {
                     type: 'text',
-                    elements: [transformOrderToText(req.order)] // use function for transform order to the text message
+                    message: [transformOrderToText(req.order)] // use function for transform order to the text message
                 }
             ]
         };
@@ -179,11 +179,11 @@ router
             responses: [
                 {
                     type: 'text',
-                    elements: ['🛒 Your order summary:']
+                    message: ['🛒 Your order summary:']
                 },
                 {
                     type: 'text',
-                    elements: [transformOrderToText(order)] // use the function for transform order to the text message
+                    message: [transformOrderToText(order)] // use the function for transform order to the text message
                 }
             ]
         });
