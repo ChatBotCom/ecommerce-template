@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "firebase-admin": "^4.2.1",
-    "firebase-functions": "^0.5.7"
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
   },
   "engines": {
-    "node": "8"
+    "node": "14"
   }
 }
